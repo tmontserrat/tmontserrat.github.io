@@ -123,7 +123,7 @@ header {
 }
 
 nav {
-    margin-left: 1px;
+    margin: auto;
 }
 
 .btn a {
@@ -189,6 +189,10 @@ Main panel
     border-bottom-style: solid;
 }
 
+table {
+    max-width: 80%;
+}
+
 table a {
     color: darkcyan;
 }
@@ -213,7 +217,7 @@ footer
 footer {
     margin: auto;
     background-color: greenyellow;
-    width: 75%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding-top: .5%;
@@ -222,15 +226,8 @@ footer {
     
 }
 
-.copy {
-    width: 28%;
-    display:inline-block;
-    text-align: center;
-    margin: 0;
-}
-
 nav.nav-footer {
-    width: 70%;
+    width: 100%;
     display: inline-block;
     text-align: center;
 }
@@ -240,6 +237,9 @@ nav.nav-footer a {
     padding-right: 2%;
     text-decoration: none;
     color: darkcyan;
+    display: inline-block;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
 
 nav.nav-footer a:hover {
@@ -249,6 +249,7 @@ nav.nav-footer a:hover {
     background-color: rgba(213, 245, 197, 0.9);
     padding-top: 1.5%;
     padding-bottom: 1.5%;
+    display: inline-block;
 }
 
 /*==========
