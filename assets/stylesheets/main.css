@@ -1,0 +1,301 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+============
+Custum styles
+============
+*/
+
+body {
+	color: rgb(98, 98, 98);
+	font-weight: 300; 
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+==================
+Grid
+==================
+*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing:border-box;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    margin-top:0;
+}
+
+/*==========
+Header
+==========*/
+
+header {
+    margin-top:0;
+    border-bottom-width: 4px;
+    border-bottom: darkcyan;
+    border-bottom-style: solid;
+    padding-bottom: 1%;
+    font-family: Arial;
+    font-size: 120%;
+    border-top:greenyellow;
+    border-top-style: solid;
+    border-top-width: 4px;
+}
+
+.name {
+    text-align: left;
+    display:  inline-block;
+    font-size: 150%;
+    color: darkcyan;
+    margin-bottom: 40px;
+    padding-top: 11px;
+    width: 39.5%;
+    margin-right: 15%;
+}
+
+.profession {
+    text-align: right;
+    display:inline-block;
+    font-size: 150%;
+    color: darkcyan;;
+    margin: 0;
+    width: 39.5%;
+    padding-top: 11px;
+    margin-left: 5.5%;
+}
+
+nav {
+    margin-left: 1px;
+}
+
+.btn a {
+    display: inline-block;
+    width: 24.6%;
+    margin: auto;
+    margin-bottom: 2px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color:greenyellow;
+    background-color: greenyellow;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: darkcyan;
+    font-variant:small-caps;
+}
+
+.btn a:hover {
+    background-color: rgba(213, 245, 197, 0.5);
+}
+
+.contact {
+    display: block;
+    margin-bottom: 1%;
+    
+}
+.contact ul {
+    padding: 0 10px 10px 10px;
+}
+
+.contact p {
+    padding: 10px;
+}
+
+.contact a{
+    color:darkcyan;
+}
+
+.contact a:hover {
+    color:greenyellow;
+}
+
+/*==========
+Main panel
+==========*/
+
+.main-panel {
+    display:block;
+    font-size: 110%;
+    padding-top:1%;
+    padding-bottom:1%;
+    text-align:justify;
+    border-bottom-width: 4px;
+    border-bottom: darkcyan;
+    border-bottom-style: solid;
+}
+
+table a {
+    color: darkcyan;
+}
+
+table a:hover{
+    color:greenyellow;
+}
+
+/*==========
+footer
+==========*/
+
+footer {
+    margin-top: 1%;
+    background-color: greenyellow;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    border-radius: 4px;
+}
+
+.copy {
+    width: 28%;
+    display:inline-block;
+    text-align: center;
+    margin: 0;
+}
+
+nav.nav-footer {
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+}
+
+nav.nav-footer a {
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+nav.nav-footer a:hover {
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: none;
+    background-color: rgba(213, 245, 197, 0.9);
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+/*==========
+Table
+==========*/
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th,td {
+    border: 1px solid #cecfd5;
+    padding: 15px 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: rgba(0, 139, 139, 0.5);
+}
+
+b {
+    font-weight: bold;
+}
+
+i {
+    font-style:italic;
+}
+
+th {
+    font-weight: bold;
+    color: white;
+}
+
+.description {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/*==========
+Hobbies
+==========*/
+
+.first h2 {
+    margin-top: 1%;
+}
+
+.hobbies h2 {
+    display: block;
+    background-color: rgba(0, 139, 139, 0.5);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.hobbies p {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
