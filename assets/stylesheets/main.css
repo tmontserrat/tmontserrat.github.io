@@ -76,8 +76,7 @@ Grid
 }
 
 body {
-    width: 90%;
-    margin: auto;
+    width: 100%;
     margin-top:0;
 }
 
@@ -86,11 +85,14 @@ Header
 ==========*/
 
 header {
+    margin: auto;
     margin-top:0;
     border-bottom-width: 4px;
     border-bottom: darkcyan;
     border-bottom-style: solid;
     padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
     font-family: Arial;
     font-size: 120%;
     border-top:greenyellow;
@@ -176,6 +178,7 @@ Main panel
 ==========*/
 
 .main-panel {
+    margin: auto;
     display:block;
     font-size: 110%;
     padding-top:1%;
@@ -198,8 +201,17 @@ table a:hover{
 footer
 ==========*/
 
+.footer {
+    background-color: greenyellow;
+    border-bottom-width: 4px; 
+    border-bottom: greenyellow;
+    border-bottom-style: solid;
+    padding-bottom: 1%;
+    padding-top: 0.5%;
+}
+
 footer {
-    margin-top: 1%;
+    margin: auto;
     background-color: greenyellow;
     width: 75%;
     margin-left: auto;
@@ -207,6 +219,7 @@ footer {
     padding-top: .5%;
     padding-bottom: .5%;
     border-radius: 4px;
+    
 }
 
 .copy {
