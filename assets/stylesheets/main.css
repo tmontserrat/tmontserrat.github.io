@@ -148,14 +148,19 @@ nav {
 .contact {
     display: block;
     margin-bottom: 1%;
-    
 }
+
+.image {
+    float: left;
+    margin-right: 10px;
+}
+
 .contact ul {
     padding: 0 10px 10px 10px;
 }
 
 .contact p {
-    padding: 10px;
+    padding: 5px 10px;
 }
 
 .contact a{
